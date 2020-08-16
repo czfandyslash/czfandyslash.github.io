@@ -70,7 +70,7 @@ color:  # 主题颜色配置，不一定能每一处都生效，可能会被局�
   board_color_dark: "#252d38"
 
 font:  # 主题字体配置
-  font_size: 16px                   # 全局字号
+  font_size: 18px                   # 全局字号
   font_family:                      # 全局字体
   code_font_size: 85%               # 代码的字号
 
@@ -120,7 +120,7 @@ version:  # 主题版本相关
 # Header
 #---------------------------
 navbar:
-  blog_title: Fluid # 导航栏左侧的标题，为空则按 hexo config.title 显示
+  blog_title: Welcome！喜欢您来 🎉 # 导航栏左侧的标题，为空则按 hexo config.title 显示
   ground_glass:  # 导航栏毛玻璃特效，实验性功能，可能会造成页面滚动掉帧和抖动，部分浏览器不支持会自动不生效
     enable: false
     px: 3  # 模糊像素，只能为数字，数字越大模糊度越高
@@ -142,7 +142,7 @@ search: # 搜索栏，基于 hexo-generator-search 插件，若已安装其他�
 
 scroll_down_arrow:  # 向下滚动的箭头
   enable: true
-  banner_height_limit: 90  # 头图高度不小于指定比例，才显示箭头
+  banner_height_limit: 70  # 头图高度不小于指定比例，才显示箭头
   scroll_after_turning_page: true  # 翻页后自动滚动
 
 banner_parallax: true  # 头图滚动视差
@@ -180,7 +180,7 @@ index:
   post_default_img: '' # 默认的文章封面图，当没有指定 index_img 时会使用该图片，若都为空则不显示任何图片
   slogan:  # 首页副标题的独立设置
     enable: true  # 为 false 则不显示任何内容
-    text: 'An elegant Material-Design theme for Hexo'  # 为空则按 hexo config.subtitle 显示
+    text: '🎵 小紫菜的「音乐科技」小站'  # 为空则按 hexo config.subtitle 显示
   auto_excerpt:
     enable: true
   post_url_target: _self  # available: _blank | _self
